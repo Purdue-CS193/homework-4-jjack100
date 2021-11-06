@@ -22,10 +22,6 @@ public class Test1 {
                 result = ((double) num1) / num2;
             }
         }
+
         return result;
     }
-
-    public static void main(final String[] args) {
-        System.out.println(basicCalculator(Operation.DIVIDE, 1, 2));
-    }
-}
